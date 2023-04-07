@@ -1,0 +1,138 @@
+*{ 
+    margin-top: 0px;
+    margin-left: 0px;;
+    margin-right: 0px;;
+   }
+   body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     /* font-size: smaller; */
+     background-color: #ffffff;
+     
+   }
+
+   /* input type */
+   .input_type{
+    /* margin-top: 30px; */
+    margin-left: 4%;
+      width:90%;
+      height:30px;
+      outline:none;
+      border-radius:lightgrey;
+      border: 2px solid lightgray;
+   }
+
+   .hr{
+    margin-left: 4%;
+    margin-top: 8px;;
+    width:90%;
+    opacity: .5;
+    height:1px;
+    background-color: lightgrey;
+   }
+
+   
+   /* main title */
+   .main_title{
+    margin-top: 15px;;
+     display:flex;
+     justify-content: space-evenly;
+     color: #1abc9c;
+     font-size: smaller;
+   }
+   
+   
+   /* checkitem */
+   .every_item{
+     display:flex;
+     justify-content: space-evenly;
+     color:rgb(4, 21, 46);
+     font-size: smaller;
+   }
+   .every_item:hover{
+    /* transition: .8s; */
+    /* opacity:0.4 */
+   }
+   
+   /* subitems in checkitem */
+   .name{
+     width:180px;
+     /* background-color: red; */
+   }
+   .email{
+     width:280px;
+     /* background-color: green; */
+   }
+   .role{
+     width:180px;
+     /* background-color: yellowgreen; */
+   }
+   .actions{
+     width:180px;
+     /* background-color: aquamarine; */
+   }
+   .actions>.action2{
+     margin-left: 15px;;
+     margin-top: 5px;;
+     opacity: .8;
+     color:red
+   }
+   .actions>.action1:hover{
+    cursor:pointer
+   }
+   .actions>.action2:hover{
+     cursor:pointer
+    }
+
+
+
+    /* pagination  */
+
+    .footer{
+        display:flex;
+        /* background-color:red; */
+        width:80%;
+        margin-left: 4%;
+    }
+    .pagination {
+        margin-left: 60%;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: yellow; */
+        
+      }
+      .pagination > span {
+        cursor: pointer;
+      }
+      .selected { 
+        margin-top:0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: #05062e;
+        color:white;
+        border-radius: 50%;
+        transition: .9s;
+        
+      }
+      .disable {
+        opacity: 0.3;
+        color:grey
+      }
+      .rendering_data{
+        height: 600px;
+        /* background-color:red */
+      }
+
+    
+      
+
+   
+   
+   
+   
